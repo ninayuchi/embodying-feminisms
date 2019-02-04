@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang');
+
+*{
+	font-family: 'Fahkwang', sans-serif;
+}
+
 .question, .button2{
 	justify-content: center;
 	text-align: center;
@@ -11,6 +17,10 @@
 	padding: 3.5vw;
 }
 
+.button2{
+	margin: 0 26vw;
+}
+
 .filler{
 	height: 15vh;
 }
@@ -19,12 +29,33 @@
 	color: white;
 }
 
+.dark{
+	color: black;
+}
+
 a{
 	font-weight: bold;
+	text-decoration: none;
 }
 
 p{
 	padding: 2vw;
 	border: 1pt white solid;
-	border-radius: .5;
+	border-radius: 0%;
+	transition: border-radius 1s;
+}
+
+p:hover{
+	border-radius: 50%;
+}
+
+@media screen and (max-width: 800px){
+	.button1, .button2{
+		display: block;
+		margin: 0 26vw;
+	}
+
+	.filler{
+		height: 7vh;
+	}
 }
