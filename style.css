@@ -1,0 +1,30 @@
+.question, .button2{
+	justify-content: center;
+	text-align: center;
+}
+
+.button1, .button2{
+	width: 40vw;
+	justify-content: center;
+	text-align: center;
+	display: inline-block;
+	padding: 3.5vw;
+}
+
+.filler{
+	height: 15vh;
+}
+
+.light{
+	color: white;
+}
+
+a{
+	font-weight: bold;
+}
+
+p{
+	padding: 2vw;
+	border: 1pt white solid;
+	border-radius: .5;
+}
